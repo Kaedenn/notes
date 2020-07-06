@@ -7,6 +7,8 @@
 const DODO_CODE = "TBD";
 
 window.addEventListener("DOMContentLoaded", function() {
+  const $t = document.querySelector("title");
+  $t.textContent = DODO_CODE + " ~ " + $t.textContent;
   document.querySelector("#dodo").textContent = DODO_CODE;
 });
   </script>
